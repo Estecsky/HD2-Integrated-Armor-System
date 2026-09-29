@@ -1,0 +1,7 @@
+{
+  "rsa_modulus": "u7h7n4eci0Cv2/asTqJdcvtg1C88O4KU/XAG3b1Hc9uY9aXmJvASGGngNJo5VFac0ZIzW11Sk2N9AtLPY3RwiPFOnFc5VaZQ43v7VlUUBEIBEqX9JlAkp4a0lHpX3LE/pRcecWMT8VWdJtOPTV9FA6LvDz94I47ncDw9xJt1uVaM9vvo75J5NlQ6mh8xcoe38qegVdyvXojWpuSd/ogtvrh4ydh56XlxuBMy+mpREFalm2RuGaW7FoSxLBDMqQgcZa/GCK2VQ3HGNk0osVa73oi7vEd12kyuQUvP9jxFF1o3kC6Y0RD+Vrgz7I4X9MVFk/XjI4q09haJVnnxKLUhFT8Xr0p/qRGqkfX4zzr7/Cavo9ry/8De48VYlzWNjgSdNL/eWbO4wFvjoOph8JJ6nWf3Ph102RIBlfMcKh4cOtEZs2G4es8zmVlnqbs4doUa/OiipCk56sUivzvr7o1QVGHENLyh+L48I3g6U+7/KhEBtowiHGQPCNzQCX0iSTSF",
+  "enabled": true,
+  "channel": "stable",
+  "feed_url": "https://raw.githubusercontent.com/Estecsky/HD2-Integrated-Armor-System/main/feed.json",
+  "rsa_exponent": "AQAB"
+}
