@@ -4,7 +4,7 @@ HD2 综合护甲系统的版本更新仓库。
 
 当前版本：**1.4.1**
 
-安装包发布在 [Releases](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases)。客户端通过签名更新清单检查可用更新。
+安装包发布在 [Releases](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases)；[1.4.0 → 1.4.1 离线更新包](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases/download/V1.4.1/HD2IAS-1.4.0-to-1.4.1-offline-update.zip)。客户端通过签名更新清单检查可用更新。
 
 更新请在客户端更新页中拉取更新
 

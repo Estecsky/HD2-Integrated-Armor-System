@@ -1,4 +1,24 @@
 {
   "schema": "HD2Announcements1",
-  "latest": null
+  "latest": {
+    "sequence": 20261015002116,
+    "languages": {
+      "zh-CN": {
+        "title": "V1.4.1 正式版已发布",
+        "body": "V1.4.1 正式版已发布，可通过客户端检查更新，或前往 GitHub Release 下载。\n\n1.4.0 用户更新后请重新部署所选路线。\n切换路线时，请重新生成并在 Arsenal 替换对应 data 包，只保留一份系统 Lua。\n使用完整安装器时，请先卸载原来的护甲系统，再安装本版。"
+      },
+      "en": {
+        "title": "V1.4.1 is now available",
+        "body": "V1.4.1 is now available. Check for updates in the client or download it from GitHub Releases.\n\nAfter updating from 1.4.0, redeploy your selected route.\nWhen switching routes, regenerate the corresponding data package and replace it in Arsenal. Keep only one copy of the system Lua.\nWhen using the full installer, uninstall the previous armor system before installing this version."
+      },
+      "ko": {
+        "title": "V1.4.1 정식 버전 출시",
+        "body": "V1.4.1 정식 버전이 출시되었습니다. 클라이언트에서 업데이트를 확인하거나 GitHub Release에서 다운로드하세요.\n\n1.4.0에서 업데이트한 후에는 선택한 방식을 다시 배포하세요.\n방식을 변경할 때는 해당 data 패키지를 다시 생성하고 Arsenal에서 교체하세요. 시스템 Lua는 하나만 유지하세요.\n전체 설치 프로그램을 사용할 때는 기존 방어구 시스템을 먼저 제거한 후 이 버전을 설치하세요."
+      },
+      "ja": {
+        "title": "V1.4.1 正式版を公開しました",
+        "body": "V1.4.1 正式版を公開しました。クライアントで更新を確認するか、GitHub Releaseからダウンロードしてください。\n\n1.4.0から更新した後は、選択した方式を再デプロイしてください。\n方式を切り替える際は、対応するdataパッケージを再生成し、Arsenalで置き換えてください。システムLuaは1つだけ残してください。\n完全版インストーラーを使用する場合は、既存のアーマーシステムをアンインストールしてから本版をインストールしてください。"
+      }
+    }
+  }
 }
