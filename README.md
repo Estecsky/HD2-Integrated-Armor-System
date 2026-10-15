@@ -2,13 +2,17 @@
 
 HD2 综合护甲系统的版本更新仓库。
 
-当前版本：**1.4.2**
+当前版本：**1.4.3**
 
-安装包发布在 [Releases](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases)；[1.4.0／1.4.1 → 1.4.2 离线更新包](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases/download/V1.4.2/HD2IAS-1.4.2-offline-update.zip)。客户端通过签名更新清单检查可用更新。
+安装包发布在 [Releases](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases)；[1.4.0／1.4.1／1.4.2 → 1.4.3 离线更新包](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases/download/V1.4.3/HD2IAS-1.4.3-offline-update.zip)。客户端通过签名更新清单检查可用更新。
+
+1.4.3 修复多资源头盔差分选项不显示或无法切换的问题。更新后请退出游戏，在“安装系统”页重新部署所选路线的系统组件。沿用原路线时无需重新生成系统 data 包。
+
+原先缺少差分清单的组差分模型包，需要作者使用修复后的 SDK 重新导出模型和配套运行时包。
 
 更新请在客户端更新页中拉取更新
 
-所有系列用户更新1.4请重新下载安装包安装。
+1.3.x 及更早版本请使用最新完整安装器；1.4.0、1.4.1、1.4.2 可通过客户端在线更新或离线包升级。
 
 V1.4.0更新公告
 

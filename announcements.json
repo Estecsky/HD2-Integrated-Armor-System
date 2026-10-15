@@ -1,23 +1,23 @@
 {
   "schema": "HD2Announcements1",
   "latest": {
-    "sequence": 20261015080254,
+    "sequence": 20261016001630,
     "languages": {
       "zh-CN": {
-        "title": "V1.4.2 正式版已发布",
-        "body": "- 修复了原生路线下部分自定义护甲在舰桥穿戴后扭曲、拉伸的问题。\n\n- 1.4.1 原生路线用户更新后请退出游戏，在“安装系统”页重新部署；Lua 路线仅更新客户端。\n- 1.4.0 用户更新后请退出游戏，在“安装系统”页重新部署所选路线。\n- 沿用原路线时保留现有 data 包；切换路线时请重新生成并在 Arsenal 替换，只保留一份系统 Lua。\n\n使用完整安装器时，请先卸载原来的护甲系统，再安装本版。"
+        "title": "V1.4.3 正式版已发布",
+        "body": "- 修复多资源头盔差分选项不显示或无法切换的问题。\n- 保留 1.4.2 的原生 S1 修复，解决部分自定义护甲在舰桥穿戴后扭曲、拉伸的问题。\n\n- 所有路线用户更新后都请退出游戏，在“安装系统”页重新部署所选路线的系统组件。\n- 沿用原路线时无需重新生成系统 data 包；切换路线时请按既有流程重新生成并在 Arsenal 替换，只保留一份系统 Lua。\n- 原先缺少差分清单的组差分模型包，需要作者使用修复后的 SDK 重新导出模型和配套运行时包。本次运行时安装器不包含 Blender 插件。\n\n使用完整安装器时，请先卸载原来的护甲系统，再安装本版。"
       },
       "en": {
-        "title": "V1.4.2 is now available",
-        "body": "- Fixed distortion and stretching of some custom armor when equipped on the ship with the native route.\n\n- After updating from 1.4.1, native-route users should close the game and redeploy from Install System. Lua-route users only need to update the client.\n- After updating from 1.4.0, close the game and redeploy your selected route from Install System.\n- Keep the existing data package when staying on the same route. When switching routes, regenerate it and replace it in Arsenal. Keep only one system Lua package.\n\nWhen using the full installer, uninstall the previous armor system before installing this version."
+        "title": "V1.4.3 is now available",
+        "body": "- Fixed missing or unselectable variant options on helmets with multiple resources.\n- Retained the 1.4.2 native S1 fix for distortion and stretching of some custom armor when equipped on the ship.\n\n- After updating, users of both routes must close the game and redeploy the system components for their selected route from Install System.\n- Keep the existing system data package when staying on the same route. When switching routes, follow the existing process to regenerate it and replace it in Arsenal. Keep only one system Lua package.\n- Authors must re-export older group-variant model packages that lack a variant manifest, including their companion runtime packages, with the fixed SDK. This runtime installer does not include the Blender add-on.\n\nWhen using the full installer, uninstall the previous armor system before installing this version."
       },
       "ko": {
-        "title": "V1.4.2 정식 버전 출시",
-        "body": "- 네이티브 방식에서 함선 내 일부 커스텀 방어구 착용 시 발생하던 뒤틀림과 늘어짐을 수정했습니다.\n\n- 1.4.1 네이티브 방식 사용자는 업데이트 후 게임을 종료하고 시스템 설치 페이지에서 다시 배포하세요. Lua 방식은 클라이언트만 업데이트하세요.\n- 1.4.0 사용자는 업데이트 후 게임을 종료하고 시스템 설치 페이지에서 선택한 방식을 다시 배포하세요.\n- 같은 방식을 유지하면 기존 data 패키지를 유지하세요. 방식을 전환할 때는 다시 생성하여 Arsenal에서 교체하고 시스템 Lua는 하나만 유지하세요.\n\n전체 설치 프로그램을 사용할 때는 기존 방어구 시스템을 먼저 제거한 후 이 버전을 설치하세요."
+        "title": "V1.4.3 정식 버전 출시",
+        "body": "- 여러 리소스를 사용하는 헬멧의 변형 옵션이 표시되지 않거나 전환되지 않는 문제를 수정했습니다.\n- 함선에서 일부 커스텀 방어구 착용 시 발생하던 뒤틀림과 늘어짐을 해결한 1.4.2의 네이티브 S1 수정 사항을 유지합니다.\n\n- 두 방식의 사용자 모두 업데이트 후 게임을 종료하고 시스템 설치 페이지에서 선택한 방식의 시스템 구성 요소를 다시 배포하세요.\n- 같은 방식을 유지하면 시스템 data 패키지를 다시 생성할 필요가 없습니다. 방식을 전환할 때는 기존 절차에 따라 다시 생성하여 Arsenal에서 교체하고 시스템 Lua는 하나만 유지하세요.\n- 변형 매니페스트가 없는 기존 그룹 변형 모델 패키지는 제작자가 수정된 SDK로 모델과 해당 런타임 패키지를 다시 내보내야 합니다. 이번 런타임 설치 프로그램에는 Blender 애드온이 포함되어 있지 않습니다.\n\n전체 설치 프로그램을 사용할 때는 기존 방어구 시스템을 먼저 제거한 후 이 버전을 설치하세요."
       },
       "ja": {
-        "title": "V1.4.2 正式版を公開しました",
-        "body": "- ネイティブ方式で、艦内で一部のカスタムアーマーを装備すると歪みや引き伸ばしが発生する不具合を修正しました。\n\n- 1.4.1のネイティブ方式の利用者は更新後にゲームを終了し、システムのインストール画面で再適用してください。Lua方式はクライアントの更新のみ必要です。\n- 1.4.0の利用者は更新後にゲームを終了し、システムのインストール画面で選択した方式を再適用してください。\n- 同じ方式を使う場合は既存のdataパッケージを保持してください。方式を切り替える場合は再生成してArsenalで置き換え、システムLuaは1つだけ保持してください。\n\n完全版インストーラーを使用する場合は、既存のアーマーシステムをアンインストールしてから本版をインストールしてください。"
+        "title": "V1.4.3 正式版を公開しました",
+        "body": "- 複数リソースを持つヘルメットで、差分の選択肢が表示されない、または切り替えられない問題を修正しました。\n- 艦内で一部のカスタムアーマーを装備すると歪みや引き伸ばしが発生する不具合に対する、1.4.2のネイティブS1修正を維持しています。\n\n- どちらの方式でも、更新後にゲームを終了し、システムのインストール画面で選択した方式のシステム構成ファイルを再適用してください。\n- 同じ方式を使う場合、システムdataパッケージの再生成は不要です。方式を切り替える場合は従来の手順に従って再生成してArsenalで置き換え、システムLuaは1つだけ保持してください。\n- 差分マニフェストがない従来のグループ差分モデルパッケージは、作者が修正済みSDKでモデルと対応するランタイムパッケージを再エクスポートする必要があります。今回のランタイムインストーラーにBlenderアドオンは含まれません。\n\n完全版インストーラーを使用する場合は、既存のアーマーシステムをアンインストールしてから本版をインストールしてください。"
       }
     }
   }
