@@ -1,23 +1,23 @@
 {
   "schema": "HD2Announcements1",
   "latest": {
-    "sequence": 20261016051000,
+    "sequence": 20261017034700,
     "languages": {
       "zh-CN": {
-        "title": "V1.4.4 正式版已发布",
-        "body": "- 合入原生 H6 修复，解决队友加入或返回舰船后偶发还原不完成的问题。\n- 修复特定资源查询短暂不可用时的等待与分段续接处理，避免重复提交已完成的操作。\n- 保留 1.4.3 头盔差分和 S1 护甲拉伸修复。\n\n- 原生路线用户更新后请退出游戏，在“安装系统”页重新部署成对的原生宿主和 addon。\n- 已使用 1.4.3 的 Lua 路线仅需更新客户端；1.4.0–1.4.2 用户仍需退出游戏并重新部署所选路线，才能包含头盔差分修复。\n- 沿用原路线时无需重新生成系统 data 包；切换路线时请按既有流程重新生成并在 Arsenal 替换，只保留一份系统 Lua。\n- 原先缺少差分清单的组差分模型包，需要作者使用修复后的 SDK 重新导出模型和配套运行时包。本次运行时安装器不包含 Blender 插件。\n\n使用完整安装器时，请先卸载原来的护甲系统，再安装本版。"
+        "title": "V1.4.5 正式版已发布",
+        "body": "- 修复十进制目标骨骼 ID 被再次当作名称哈希，导致部分模型骨骼匹配失败的问题。\n- 修复跨归档重复但内容完全相同的 Unit 被误判为冲突，导致部分头部独立骨骼不生效或拉伸的问题。\n\n- 原生路线用户请退出游戏，在“安装系统”页重新部署成对的原生宿主和 addon。\n- 从 1.4.0–1.4.2 直接升级的用户请退出游戏，并重新部署所选路线。\n- 沿用原路线时无需重新生成系统 data 包；切换路线时请重新生成并在 Arsenal 替换，只保留一份系统 Lua。\n\n使用完整安装器时，请先卸载原来的护甲系统，再安装本版。"
       },
       "en": {
-        "title": "V1.4.4 is now available",
-        "body": "- Integrated the native H6 fix for intermittent incomplete restoration when a teammate joins or after returning to the ship.\n- Fixed waiting and resumption of staged initialization when specific resource queries are temporarily unavailable, without repeating completed operations.\n- Retained the 1.4.3 helmet variant and S1 armor stretching fixes.\n\n- Native-route users must close the game after updating and redeploy the matching native host and addon together from Install System.\n- Lua-route users already on 1.4.3 only need to update the client. Users on 1.4.0–1.4.2 must still close the game and redeploy their selected route to receive the helmet variant fix.\n- Keep the existing system data package when staying on the same route. When switching routes, follow the existing process to regenerate it and replace it in Arsenal. Keep only one system Lua package.\n- Authors must re-export older group-variant model packages that lack a variant manifest, including their companion runtime packages, with the fixed SDK. This runtime installer does not include the Blender add-on.\n\nWhen using the full installer, uninstall the previous armor system before installing this version."
+        "title": "V1.4.5 is now available",
+        "body": "- Fixed decimal target bone IDs being hashed again as names, which caused bone matching to fail for some models.\n- Fixed identical Unit content duplicated across archives being incorrectly treated as a conflict, which caused some head rigs to fail or stretch.\n\n- Native-route users must close the game and redeploy the matching native host and addon together from Install System.\n- Users upgrading directly from 1.4.0–1.4.2 must close the game and redeploy their selected route.\n- Keep the existing system data package when staying on the same route. When switching routes, regenerate it and replace it in Arsenal. Keep only one system Lua package.\n\nWhen using the full installer, uninstall the previous armor system before installing this version."
       },
       "ko": {
-        "title": "V1.4.4 정식 버전 출시",
-        "body": "- 팀원이 참가하거나 함선으로 돌아온 뒤 간헐적으로 복원이 완료되지 않던 문제를 해결하는 네이티브 H6 수정을 통합했습니다.\n- 특정 리소스 쿼리를 일시적으로 사용할 수 없을 때 대기하고 단계별 초기화를 이어가는 처리를 수정하여 완료된 작업을 반복하지 않도록 했습니다.\n- 1.4.3의 헬멧 변형 수정과 S1 방어구 늘어짐 수정 사항을 유지합니다.\n\n- 네이티브 방식 사용자는 업데이트 후 게임을 종료하고 시스템 설치 페이지에서 서로 맞는 네이티브 호스트와 addon을 함께 다시 배포하세요.\n- 이미 1.4.3을 사용하는 Lua 방식은 클라이언트만 업데이트하면 됩니다. 1.4.0–1.4.2 사용자는 헬멧 변형 수정을 적용하려면 게임을 종료하고 선택한 방식을 다시 배포해야 합니다.\n- 같은 방식을 유지하면 시스템 data 패키지를 다시 생성할 필요가 없습니다. 방식을 전환할 때는 기존 절차에 따라 다시 생성하여 Arsenal에서 교체하고 시스템 Lua는 하나만 유지하세요.\n- 변형 매니페스트가 없는 기존 그룹 변형 모델 패키지는 제작자가 수정된 SDK로 모델과 해당 런타임 패키지를 다시 내보내야 합니다. 이번 런타임 설치 프로그램에는 Blender 애드온이 포함되어 있지 않습니다.\n\n전체 설치 프로그램을 사용할 때는 기존 방어구 시스템을 먼저 제거한 후 이 버전을 설치하세요."
+        "title": "V1.4.5 정식 버전 출시",
+        "body": "- 10진수 대상 본 ID를 이름으로 다시 해시하여 일부 모델의 본 매칭이 실패하던 문제를 수정했습니다.\n- 여러 아카이브에 중복된 Unit의 내용이 완전히 같은데도 충돌로 판단하여 일부 머리의 독립 본이 작동하지 않거나 늘어나던 문제를 수정했습니다.\n\n- 네이티브 방식 사용자는 게임을 종료하고 시스템 설치 페이지에서 서로 맞는 네이티브 호스트와 addon을 함께 다시 배포하세요.\n- 1.4.0–1.4.2에서 바로 업데이트하는 사용자는 게임을 종료하고 선택한 방식을 다시 배포하세요.\n- 같은 방식을 유지하면 시스템 data 패키지를 다시 생성할 필요가 없습니다. 방식을 전환할 때는 다시 생성하여 Arsenal에서 교체하고 시스템 Lua는 하나만 유지하세요.\n\n전체 설치 프로그램을 사용할 때는 기존 방어구 시스템을 먼저 제거한 후 이 버전을 설치하세요."
       },
       "ja": {
-        "title": "V1.4.4 正式版を公開しました",
-        "body": "- 隊員の参加時や艦船へ戻った後、ネイティブ方式でまれに復元が完了しない問題に対するH6修正を統合しました。\n- 特定のリソース照会が一時的に利用できない場合の待機と段階的な初期化の再開処理を修正し、完了した操作の重複実行を防ぎます。\n- 1.4.3のヘルメット差分修正とS1アーマーの引き伸ばし修正を維持しています。\n\n- ネイティブ方式の利用者は更新後にゲームを終了し、システムのインストール画面で対応するネイティブホストとaddonを必ずセットで再適用してください。\n- すでに1.4.3を使用しているLua方式では、クライアントの更新のみ必要です。1.4.0–1.4.2の利用者はヘルメット差分修正を適用するため、ゲームを終了して選択した方式を再適用してください。\n- 同じ方式を使う場合、システムdataパッケージの再生成は不要です。方式を切り替える場合は従来の手順に従って再生成してArsenalで置き換え、システムLuaは1つだけ保持してください。\n- 差分マニフェストがない従来のグループ差分モデルパッケージは、作者が修正済みSDKでモデルと対応するランタイムパッケージを再エクスポートする必要があります。今回のランタイムインストーラーにBlenderアドオンは含まれません。\n\n完全版インストーラーを使用する場合は、既存のアーマーシステムをアンインストールしてから本版をインストールしてください。"
+        "title": "V1.4.5 正式版を公開しました",
+        "body": "- 10進数のターゲットボーンIDを名前として再ハッシュし、一部モデルでボーンの照合に失敗する問題を修正しました。\n- 複数のアーカイブに重複するUnitの内容が完全に同じでも競合と判断し、一部の頭部の独立ボーンが機能しない、または引き伸ばされる問題を修正しました。\n\n- ネイティブ方式の利用者はゲームを終了し、システムのインストール画面で対応するネイティブホストとaddonを必ずセットで再適用してください。\n- 1.4.0–1.4.2から直接更新する利用者は、ゲームを終了して選択した方式を再適用してください。\n- 同じ方式を使う場合、システムdataパッケージの再生成は不要です。方式を切り替える場合は再生成してArsenalで置き換え、システムLuaは1つだけ保持してください。\n\n完全版インストーラーを使用する場合は、既存のアーマーシステムをアンインストールしてから本版をインストールしてください。"
       }
     }
   }
