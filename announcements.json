@@ -1,23 +1,23 @@
 {
   "schema": "HD2Announcements1",
   "latest": {
-    "sequence": 20261017034700,
+    "sequence": 20261018233640,
     "languages": {
       "zh-CN": {
-        "title": "V1.4.5 正式版已发布",
-        "body": "- 修复十进制目标骨骼 ID 被再次当作名称哈希，导致部分模型骨骼匹配失败的问题。\n- 修复跨归档重复但内容完全相同的 Unit 被误判为冲突，导致部分头部独立骨骼不生效或拉伸的问题。\n\n- 原生路线用户请退出游戏，在“安装系统”页重新部署成对的原生宿主和 addon。\n- 从 1.4.0–1.4.2 直接升级的用户请退出游戏，并重新部署所选路线。\n- 沿用原路线时无需重新生成系统 data 包；切换路线时请重新生成并在 Arsenal 替换，只保留一份系统 Lua。\n\n使用完整安装器时，请先卸载原来的护甲系统，再安装本版。"
+        "title": "V1.4.6 正式版已发布",
+        "body": "- 原生路线：修复第三人称握持采样和第一人称重挂接，改善 AC-8 等武器的接触抖动。\n- 原生路线：修复身体与贴身服装最终渲染不同步，并改善窄比例模型的腿部中线间距。\n- 原生路线：优化姿态采样与转换、重复数值计算和工作内存使用，减少不必要的读取、清零与复制。\n- 原生路线：优化多角色的数值计算调度，按条件并行准备独立角色/项目，并保留原解算回退。\n\n- 原生路线用户请退出游戏，在“安装系统”页重新部署成对的原生宿主和 addon。\n- 从 1.4.0–1.4.2 直接升级的用户请退出游戏，并重新部署所选路线。\n- 沿用原路线时无需重新生成系统 data 包；切换路线时请重新生成并在 Arsenal 替换，只保留一份系统 Lua。\n\n使用完整安装器时，请先卸载原来的护甲系统，再安装本版。"
       },
       "en": {
-        "title": "V1.4.5 is now available",
-        "body": "- Fixed decimal target bone IDs being hashed again as names, which caused bone matching to fail for some models.\n- Fixed identical Unit content duplicated across archives being incorrectly treated as a conflict, which caused some head rigs to fail or stretch.\n\n- Native-route users must close the game and redeploy the matching native host and addon together from Install System.\n- Users upgrading directly from 1.4.0–1.4.2 must close the game and redeploy their selected route.\n- Keep the existing system data package when staying on the same route. When switching routes, regenerate it and replace it in Arsenal. Keep only one system Lua package.\n\nWhen using the full installer, uninstall the previous armor system before installing this version."
+        "title": "V1.4.6 is now available",
+        "body": "- Native: Fixed third-person grip sampling and first-person reattachment, and reduced contact jitter with weapons such as the AC-8.\n- Native: Fixed mismatched final rendering between bodies and close-fitting clothing, and improved leg spacing for narrow-proportioned models.\n- Native: Optimized pose sampling and conversion, repeated numerical calculations, and working memory use to reduce unnecessary reads, clearing, and copying.\n- Native: Optimized numerical scheduling across characters, enabling parallel preparation for independent characters and items when appropriate, with the existing solver retained as a fallback.\n\n- Native-route users must close the game and redeploy the matching native host and addon together from Install System.\n- Users upgrading directly from 1.4.0–1.4.2 must close the game and redeploy their selected route.\n- Keep the existing system data package when staying on the same route. When switching routes, regenerate it and replace it in Arsenal. Keep only one system Lua package.\n\nWhen using the full installer, uninstall the previous armor system before installing this version."
       },
       "ko": {
-        "title": "V1.4.5 정식 버전 출시",
-        "body": "- 10진수 대상 본 ID를 이름으로 다시 해시하여 일부 모델의 본 매칭이 실패하던 문제를 수정했습니다.\n- 여러 아카이브에 중복된 Unit의 내용이 완전히 같은데도 충돌로 판단하여 일부 머리의 독립 본이 작동하지 않거나 늘어나던 문제를 수정했습니다.\n\n- 네이티브 방식 사용자는 게임을 종료하고 시스템 설치 페이지에서 서로 맞는 네이티브 호스트와 addon을 함께 다시 배포하세요.\n- 1.4.0–1.4.2에서 바로 업데이트하는 사용자는 게임을 종료하고 선택한 방식을 다시 배포하세요.\n- 같은 방식을 유지하면 시스템 data 패키지를 다시 생성할 필요가 없습니다. 방식을 전환할 때는 다시 생성하여 Arsenal에서 교체하고 시스템 Lua는 하나만 유지하세요.\n\n전체 설치 프로그램을 사용할 때는 기존 방어구 시스템을 먼저 제거한 후 이 버전을 설치하세요."
+        "title": "V1.4.6 정식 버전 출시",
+        "body": "- 네이티브 방식: 3인칭 무기 파지 샘플링과 1인칭 재연결을 수정하고 AC-8 등 무기 접촉 시의 떨림을 개선했습니다.\n- 네이티브 방식: 몸체와 밀착 의상의 최종 렌더링 불일치를 수정하고, 폭이 좁은 모델의 다리 사이 간격을 개선했습니다.\n- 네이티브 방식: 포즈 샘플링과 변환, 중복 수치 계산 및 작업 메모리 사용을 최적화하여 불필요한 읽기, 초기화, 복사를 줄였습니다.\n- 네이티브 방식: 여러 캐릭터의 수치 계산 스케줄링을 최적화하고, 조건이 충족되면 독립 캐릭터와 항목의 준비 계산을 병렬 처리하며 기존 계산 경로로의 대체 동작을 유지했습니다.\n\n- 네이티브 방식 사용자는 게임을 종료하고 시스템 설치 페이지에서 서로 맞는 네이티브 호스트와 addon을 함께 다시 배포하세요.\n- 1.4.0–1.4.2에서 바로 업데이트하는 사용자는 게임을 종료하고 선택한 방식을 다시 배포하세요.\n- 같은 방식을 유지하면 시스템 data 패키지를 다시 생성할 필요가 없습니다. 방식을 전환할 때는 다시 생성하여 Arsenal에서 교체하고 시스템 Lua는 하나만 유지하세요.\n\n전체 설치 프로그램을 사용할 때는 기존 방어구 시스템을 먼저 제거한 후 이 버전을 설치하세요."
       },
       "ja": {
-        "title": "V1.4.5 正式版を公開しました",
-        "body": "- 10進数のターゲットボーンIDを名前として再ハッシュし、一部モデルでボーンの照合に失敗する問題を修正しました。\n- 複数のアーカイブに重複するUnitの内容が完全に同じでも競合と判断し、一部の頭部の独立ボーンが機能しない、または引き伸ばされる問題を修正しました。\n\n- ネイティブ方式の利用者はゲームを終了し、システムのインストール画面で対応するネイティブホストとaddonを必ずセットで再適用してください。\n- 1.4.0–1.4.2から直接更新する利用者は、ゲームを終了して選択した方式を再適用してください。\n- 同じ方式を使う場合、システムdataパッケージの再生成は不要です。方式を切り替える場合は再生成してArsenalで置き換え、システムLuaは1つだけ保持してください。\n\n完全版インストーラーを使用する場合は、既存のアーマーシステムをアンインストールしてから本版をインストールしてください。"
+        "title": "V1.4.6 正式版を公開しました",
+        "body": "- Native方式：三人称の武器グリップのサンプリングと一人称の再接続を修正し、AC-8などの武器との接触時の揺れを改善しました。\n- Native方式：身体と密着した衣装の最終描画が一致しない問題を修正し、幅の狭いモデルの脚の間隔を改善しました。\n- Native方式：ポーズのサンプリングと変換、重複する数値計算、作業メモリの使用を最適化し、不要な読み取り、初期化、コピーを削減しました。\n- Native方式：複数キャラクターの数値計算のスケジューリングを最適化しました。条件を満たす独立したキャラクターや項目の準備計算を並列化し、従来の計算処理へのフォールバックを維持しました。\n\n- ネイティブ方式の利用者はゲームを終了し、システムのインストール画面で対応するネイティブホストとaddonを必ずセットで再適用してください。\n- 1.4.0–1.4.2から直接更新する利用者は、ゲームを終了して選択した方式を再適用してください。\n- 同じ方式を使う場合、システムdataパッケージの再生成は不要です。方式を切り替える場合は再生成してArsenalで置き換え、システムLuaは1つだけ保持してください。\n\n完全版インストーラーを使用する場合は、既存のアーマーシステムをアンインストールしてから本版をインストールしてください。"
       }
     }
   }
