@@ -1,23 +1,23 @@
 {
   "schema": "HD2Announcements1",
   "latest": {
-    "sequence": 20261018233640,
+    "sequence": 20261021004012,
     "languages": {
       "zh-CN": {
-        "title": "V1.4.6 正式版已发布",
-        "body": "- 原生路线：修复第三人称握持采样和第一人称重挂接，改善 AC-8 等武器的接触抖动。\n- 原生路线：修复身体与贴身服装最终渲染不同步，并改善窄比例模型的腿部中线间距。\n- 原生路线：优化姿态采样与转换、重复数值计算和工作内存使用，减少不必要的读取、清零与复制。\n- 原生路线：优化多角色的数值计算调度，按条件并行准备独立角色/项目，并保留原解算回退。\n\n- 原生路线用户请退出游戏，在“安装系统”页重新部署成对的原生宿主和 addon。\n- 从 1.4.0–1.4.2 直接升级的用户请退出游戏，并重新部署所选路线。\n- 沿用原路线时无需重新生成系统 data 包；切换路线时请重新生成并在 Arsenal 替换，只保留一份系统 Lua。\n\n使用完整安装器时，请先卸载原来的护甲系统，再安装本版。"
+        "title": "护甲系统暂时停用，请卸载 ReShade",
+        "body": "本次反作弊更新后，ReShade 被阻止加载，现有护甲系统暂时无法使用。这里指加载被拦截，并非账号封禁。\n\n请完全卸载游戏中的 ReShade；保留 ReShade 可能导致无法进入游戏。后续系统将改用不依赖 ReShade 的方案。\n\n我们已经找到替代方案，正在加速制作。由于底层代码需要大幅重写，完成还需要一些时间。等待期间，请先使用不依赖本系统的普通 Mod。\n\n客户端清理更新正在制作，将移除安装入口，并提供完整移除现有 ReShade 的按钮。"
       },
       "en": {
-        "title": "V1.4.6 is now available",
-        "body": "- Native: Fixed third-person grip sampling and first-person reattachment, and reduced contact jitter with weapons such as the AC-8.\n- Native: Fixed mismatched final rendering between bodies and close-fitting clothing, and improved leg spacing for narrow-proportioned models.\n- Native: Optimized pose sampling and conversion, repeated numerical calculations, and working memory use to reduce unnecessary reads, clearing, and copying.\n- Native: Optimized numerical scheduling across characters, enabling parallel preparation for independent characters and items when appropriate, with the existing solver retained as a fallback.\n\n- Native-route users must close the game and redeploy the matching native host and addon together from Install System.\n- Users upgrading directly from 1.4.0–1.4.2 must close the game and redeploy their selected route.\n- Keep the existing system data package when staying on the same route. When switching routes, regenerate it and replace it in Arsenal. Keep only one system Lua package.\n\nWhen using the full installer, uninstall the previous armor system before installing this version."
+        "title": "Armor system temporarily unavailable — remove ReShade",
+        "body": "Following the anti-cheat update, ReShade is blocked from loading and the current armor system is temporarily unavailable. This refers to blocked loading, not account bans.\n\nCompletely uninstall ReShade from the game; leaving it installed may prevent the game from starting. Future versions of this system will use an approach that does not depend on ReShade.\n\nWe have found an alternative and are working to implement it as quickly as possible. Much of the underlying code needs to be rewritten, so this will take time. In the meantime, please use regular Mods that do not depend on this system.\n\nA client cleanup update is being prepared. It will remove installation options and add a button to completely remove the existing ReShade installation."
       },
       "ko": {
-        "title": "V1.4.6 정식 버전 출시",
-        "body": "- 네이티브 방식: 3인칭 무기 파지 샘플링과 1인칭 재연결을 수정하고 AC-8 등 무기 접촉 시의 떨림을 개선했습니다.\n- 네이티브 방식: 몸체와 밀착 의상의 최종 렌더링 불일치를 수정하고, 폭이 좁은 모델의 다리 사이 간격을 개선했습니다.\n- 네이티브 방식: 포즈 샘플링과 변환, 중복 수치 계산 및 작업 메모리 사용을 최적화하여 불필요한 읽기, 초기화, 복사를 줄였습니다.\n- 네이티브 방식: 여러 캐릭터의 수치 계산 스케줄링을 최적화하고, 조건이 충족되면 독립 캐릭터와 항목의 준비 계산을 병렬 처리하며 기존 계산 경로로의 대체 동작을 유지했습니다.\n\n- 네이티브 방식 사용자는 게임을 종료하고 시스템 설치 페이지에서 서로 맞는 네이티브 호스트와 addon을 함께 다시 배포하세요.\n- 1.4.0–1.4.2에서 바로 업데이트하는 사용자는 게임을 종료하고 선택한 방식을 다시 배포하세요.\n- 같은 방식을 유지하면 시스템 data 패키지를 다시 생성할 필요가 없습니다. 방식을 전환할 때는 다시 생성하여 Arsenal에서 교체하고 시스템 Lua는 하나만 유지하세요.\n\n전체 설치 프로그램을 사용할 때는 기존 방어구 시스템을 먼저 제거한 후 이 버전을 설치하세요."
+        "title": "방어구 시스템 일시 중단 — ReShade를 제거해 주세요",
+        "body": "이번 안티치트 업데이트 이후 ReShade 로딩이 차단되어 기존 방어구 시스템을 일시적으로 사용할 수 없습니다. 이는 로딩 차단을 뜻하며 계정 정지를 의미하지 않습니다.\n\n게임에 설치된 ReShade를 완전히 제거해 주세요. ReShade가 남아 있으면 게임이 실행되지 않을 수 있습니다. 향후 시스템은 ReShade에 의존하지 않는 방식으로 전환됩니다.\n\n대체 방안을 찾았으며 최대한 빠르게 구현하고 있습니다. 기반 코드의 상당 부분을 다시 작성해야 하므로 시간이 더 필요합니다. 기다리는 동안에는 이 시스템에 의존하지 않는 일반 Mod를 사용해 주세요.\n\n클라이언트 정리 업데이트를 준비 중입니다. 설치 기능을 제거하고 기존 ReShade를 완전히 제거하는 버튼을 추가할 예정입니다."
       },
       "ja": {
-        "title": "V1.4.6 正式版を公開しました",
-        "body": "- Native方式：三人称の武器グリップのサンプリングと一人称の再接続を修正し、AC-8などの武器との接触時の揺れを改善しました。\n- Native方式：身体と密着した衣装の最終描画が一致しない問題を修正し、幅の狭いモデルの脚の間隔を改善しました。\n- Native方式：ポーズのサンプリングと変換、重複する数値計算、作業メモリの使用を最適化し、不要な読み取り、初期化、コピーを削減しました。\n- Native方式：複数キャラクターの数値計算のスケジューリングを最適化しました。条件を満たす独立したキャラクターや項目の準備計算を並列化し、従来の計算処理へのフォールバックを維持しました。\n\n- ネイティブ方式の利用者はゲームを終了し、システムのインストール画面で対応するネイティブホストとaddonを必ずセットで再適用してください。\n- 1.4.0–1.4.2から直接更新する利用者は、ゲームを終了して選択した方式を再適用してください。\n- 同じ方式を使う場合、システムdataパッケージの再生成は不要です。方式を切り替える場合は再生成してArsenalで置き換え、システムLuaは1つだけ保持してください。\n\n完全版インストーラーを使用する場合は、既存のアーマーシステムをアンインストールしてから本版をインストールしてください。"
+        "title": "アーマーシステムを一時停止 — ReShadeを削除してください",
+        "body": "今回のアンチチート更新後、ReShadeの読み込みがブロックされ、既存のアーマーシステムは一時的に利用できなくなりました。これは読み込みのブロックを指し、アカウントの利用停止を意味するものではありません。\n\nゲームに導入したReShadeを完全にアンインストールしてください。ReShadeが残っているとゲームを起動できない場合があります。今後のシステムはReShadeに依存しない方式に移行します。\n\n代替案が見つかり、できるだけ早く実装できるよう作業を進めています。基盤となるコードの大部分を書き直す必要があるため、完成には時間がかかります。それまでは本システムに依存しない通常のModをご利用ください。\n\nクライアントの整理用更新を準備しています。インストール機能を削除し、既存のReShadeを完全に削除するボタンを追加する予定です。"
       }
     }
   }
