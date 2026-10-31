@@ -1,23 +1,23 @@
 {
   "schema": "HD2Announcements1",
   "latest": {
-    "sequence": 20261021004012,
+    "sequence": 20261031133324,
     "languages": {
       "zh-CN": {
-        "title": "护甲系统暂时停用，请卸载 ReShade",
-        "body": "本次反作弊更新后，ReShade 被阻止加载，现有护甲系统暂时无法使用。这里指加载被拦截，并非账号封禁。\n\n请完全卸载游戏中的 ReShade；保留 ReShade 可能导致无法进入游戏。后续系统将改用不依赖 ReShade 的方案。\n\n我们已经找到替代方案，正在加速制作。由于底层代码需要大幅重写，完成还需要一些时间。等待期间，请先使用不依赖本系统的普通 Mod。\n\n客户端清理更新正在制作，将移除安装入口，并提供完整移除现有 ReShade 的按钮。"
+        "title": "1.6.0 已发布，请重新安装新版本",
+        "body": "1.6.0 已发布，系统现已恢复使用。\n\n由于整个包体结构发生变化，本次线上仅同步版本信息，不提供在线覆盖更新。请前往官方 GitHub 仓库的 Releases 下载 1.6.0 完整安装器。\n\n新版本安装：完整删除原系统后，在潜兵同盘的其他地方新建一个干净文件夹，安装存放新系统\n\n请勿直接覆盖旧文件。个人设置、预设和原始 Mod 请自行保留。安装后按客户端首页指引部署系统、部署 Mod 配套，并重新生成和安装 data 包。\n\n进入游戏后默认显示原甲；打开 ReShade 面板或者直接按 F4 即可打开护甲面板更换护甲。军械库、空投仓均统一显示原甲。"
       },
       "en": {
-        "title": "Armor system temporarily unavailable — remove ReShade",
-        "body": "Following the anti-cheat update, ReShade is blocked from loading and the current armor system is temporarily unavailable. This refers to blocked loading, not account bans.\n\nCompletely uninstall ReShade from the game; leaving it installed may prevent the game from starting. Future versions of this system will use an approach that does not depend on ReShade.\n\nWe have found an alternative and are working to implement it as quickly as possible. Much of the underlying code needs to be rewritten, so this will take time. In the meantime, please use regular Mods that do not depend on this system.\n\nA client cleanup update is being prepared. It will remove installation options and add a button to completely remove the existing ReShade installation."
+        "title": "Version 1.6.0 is available — install the new version",
+        "body": "Version 1.6.0 has been released and the system is available again.\n\nThe package structure has changed. Online services now provide version information only; this release does not support an in-place online update. Download the complete 1.6.0 installer from Releases in the official GitHub repository.\n\nNew installation: completely remove the old system, then create a clean folder elsewhere on the same drive as Helldivers 2 and install the new system there.\n\nDo not overwrite the old files. Keep your personal settings, presets and original Mods. Follow the client home-page instructions to deploy the system and Mod support files, then regenerate and install the data package.\n\nOriginal armor is shown when entering the game. Open the ReShade panel or press F4 to open the armor panel and change appearance. Original armor is always shown in the armory and hellpod."
       },
       "ko": {
-        "title": "방어구 시스템 일시 중단 — ReShade를 제거해 주세요",
-        "body": "이번 안티치트 업데이트 이후 ReShade 로딩이 차단되어 기존 방어구 시스템을 일시적으로 사용할 수 없습니다. 이는 로딩 차단을 뜻하며 계정 정지를 의미하지 않습니다.\n\n게임에 설치된 ReShade를 완전히 제거해 주세요. ReShade가 남아 있으면 게임이 실행되지 않을 수 있습니다. 향후 시스템은 ReShade에 의존하지 않는 방식으로 전환됩니다.\n\n대체 방안을 찾았으며 최대한 빠르게 구현하고 있습니다. 기반 코드의 상당 부분을 다시 작성해야 하므로 시간이 더 필요합니다. 기다리는 동안에는 이 시스템에 의존하지 않는 일반 Mod를 사용해 주세요.\n\n클라이언트 정리 업데이트를 준비 중입니다. 설치 기능을 제거하고 기존 ReShade를 완전히 제거하는 버튼을 추가할 예정입니다."
+        "title": "1.6.0 출시 — 새 버전을 다시 설치해 주세요",
+        "body": "1.6.0이 출시되었으며 시스템을 다시 사용할 수 있습니다.\n\n전체 패키지 구조가 변경되어 온라인에서는 버전 정보만 제공합니다. 이번 버전은 온라인 덮어쓰기 업데이트를 지원하지 않습니다. 공식 GitHub 저장소의 Releases에서 1.6.0 전체 설치 프로그램을 다운로드해 주세요.\n\n새 버전 설치: 기존 시스템을 완전히 제거한 뒤, Helldivers 2와 같은 드라이브의 다른 위치에 깨끗한 새 폴더를 만들고 새 시스템을 설치해 주세요.\n\n기존 파일에 덮어쓰지 마세요. 개인 설정, 프리셋과 원본 Mod는 보관해 주세요. 클라이언트 홈 화면의 안내에 따라 시스템과 Mod 지원 파일을 배포한 뒤 data 패키지를 다시 생성하고 설치해 주세요.\n\n게임에 들어가면 기본적으로 원래 방어구가 표시됩니다. ReShade 패널을 열거나 F4를 눌러 방어구 패널에서 외형을 변경할 수 있습니다. 무기고와 헬포드에서는 항상 원래 방어구가 표시됩니다."
       },
       "ja": {
-        "title": "アーマーシステムを一時停止 — ReShadeを削除してください",
-        "body": "今回のアンチチート更新後、ReShadeの読み込みがブロックされ、既存のアーマーシステムは一時的に利用できなくなりました。これは読み込みのブロックを指し、アカウントの利用停止を意味するものではありません。\n\nゲームに導入したReShadeを完全にアンインストールしてください。ReShadeが残っているとゲームを起動できない場合があります。今後のシステムはReShadeに依存しない方式に移行します。\n\n代替案が見つかり、できるだけ早く実装できるよう作業を進めています。基盤となるコードの大部分を書き直す必要があるため、完成には時間がかかります。それまでは本システムに依存しない通常のModをご利用ください。\n\nクライアントの整理用更新を準備しています。インストール機能を削除し、既存のReShadeを完全に削除するボタンを追加する予定です。"
+        "title": "1.6.0公開 — 新しいバージョンを再インストールしてください",
+        "body": "1.6.0を公開し、システムが再び利用可能になりました。\n\nパッケージ全体の構成が変更されたため、オンラインではバージョン情報のみを提供します。本版はオンラインでの上書き更新に対応していません。公式GitHubリポジトリのReleasesから1.6.0の完全版インストーラーをダウンロードしてください。\n\n新しいバージョンのインストール：旧システムを完全に削除し、Helldivers 2と同じドライブの別の場所に空の新規フォルダーを作成して、そこへ新システムをインストールしてください。\n\n旧ファイルへ直接上書きしないでください。個人設定、プリセット、元のModは保管してください。クライアントのホーム画面の案内に従ってシステムとMod用ファイルを配置し、dataパッケージを再生成してインストールしてください。\n\nゲームに入ると標準で元のアーマーが表示されます。ReShadeパネルを開くかF4を押すと、アーマーパネルで外観を変更できます。武器庫とヘルポッドでは常に元のアーマーが表示されます。"
       }
     }
   }
