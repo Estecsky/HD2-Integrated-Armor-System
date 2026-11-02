@@ -1,23 +1,23 @@
 {
   "schema": "HD2Announcements1",
   "latest": {
-    "sequence": 20261031133324,
+    "sequence": 20261103001257,
     "languages": {
       "zh-CN": {
-        "title": "1.6.0 已发布，请重新安装新版本",
-        "body": "1.6.0 已发布，系统现已恢复使用。\n\n由于整个包体结构发生变化，本次线上仅同步版本信息，不提供在线覆盖更新。请前往官方 GitHub 仓库的 Releases 下载 1.6.0 完整安装器。\n\n新版本安装：完整删除原系统后，在潜兵同盘的其他地方新建一个干净文件夹，安装存放新系统\n\n请勿直接覆盖旧文件。个人设置、预设和原始 Mod 请自行保留。安装后按客户端首页指引部署系统、部署 Mod 配套，并重新生成和安装 data 包。\n\n进入游戏后默认显示原甲；打开 ReShade 面板或者直接按 F4 即可打开护甲面板更换护甲。军械库、空投仓均统一显示原甲。"
+        "title": "1.6.1 已发布，支持 1.6.0 增量更新",
+        "body": "- 修复了旧 Mod 幻化第一人称切换时的显隐管理遗漏。\n- 修复了幻化生效后原件隐藏状态停止维护的问题。\n- 修复了同装备实例变化后的重新关联和副本误关联问题。\n\n更新后请退出游戏，在安装系统页部署系统，再到 Mod 库部署配套，重新生成并替换 data 包。\n1.6.0 可直接在线更新或导入离线更新包；更早版本请使用完整安装器，保留个人设置和预设。"
       },
       "en": {
-        "title": "Version 1.6.0 is available — install the new version",
-        "body": "Version 1.6.0 has been released and the system is available again.\n\nThe package structure has changed. Online services now provide version information only; this release does not support an in-place online update. Download the complete 1.6.0 installer from Releases in the official GitHub repository.\n\nNew installation: completely remove the old system, then create a clean folder elsewhere on the same drive as Helldivers 2 and install the new system there.\n\nDo not overwrite the old files. Keep your personal settings, presets and original Mods. Follow the client home-page instructions to deploy the system and Mod support files, then regenerate and install the data package.\n\nOriginal armor is shown when entering the game. Open the ReShade panel or press F4 to open the armor panel and change appearance. Original armor is always shown in the armory and hellpod."
+        "title": "1.6.1 is available with incremental updates from 1.6.0",
+        "body": "- Fixed missing visibility management when switching legacy Mod appearances to first person.\n- Fixed original-mesh hiding maintenance stopping after appearance publication.\n- Fixed rebinding after same-equipment instance changes and accidental binding to system copies.\n\nAfter updating, close the game, deploy the system on Install system, deploy Mod support in the Mod library, then regenerate and replace the data package.\nVersion 1.6.0 supports online and offline updates. Earlier versions require the complete installer; keep personal settings and presets."
       },
       "ko": {
-        "title": "1.6.0 출시 — 새 버전을 다시 설치해 주세요",
-        "body": "1.6.0이 출시되었으며 시스템을 다시 사용할 수 있습니다.\n\n전체 패키지 구조가 변경되어 온라인에서는 버전 정보만 제공합니다. 이번 버전은 온라인 덮어쓰기 업데이트를 지원하지 않습니다. 공식 GitHub 저장소의 Releases에서 1.6.0 전체 설치 프로그램을 다운로드해 주세요.\n\n새 버전 설치: 기존 시스템을 완전히 제거한 뒤, Helldivers 2와 같은 드라이브의 다른 위치에 깨끗한 새 폴더를 만들고 새 시스템을 설치해 주세요.\n\n기존 파일에 덮어쓰지 마세요. 개인 설정, 프리셋과 원본 Mod는 보관해 주세요. 클라이언트 홈 화면의 안내에 따라 시스템과 Mod 지원 파일을 배포한 뒤 data 패키지를 다시 생성하고 설치해 주세요.\n\n게임에 들어가면 기본적으로 원래 방어구가 표시됩니다. ReShade 패널을 열거나 F4를 눌러 방어구 패널에서 외형을 변경할 수 있습니다. 무기고와 헬포드에서는 항상 원래 방어구가 표시됩니다."
+        "title": "1.6.1 출시 — 1.6.0에서 증분 업데이트 지원",
+        "body": "- 기존 Mod 외형에서 1인칭으로 전환할 때 누락된 표시 상태 관리를 수정했습니다.\n- 외형 적용 후 원본 메시 숨김 유지가 중단되는 문제를 수정했습니다.\n- 같은 장비의 인스턴스 변경 후 재연결 및 시스템 복제본 오연결 문제를 수정했습니다.\n\n업데이트 후 게임을 종료하고 시스템 설치 페이지에서 시스템을 배포한 뒤 Mod 라이브러리에서 지원 파일을 배포하고 data 패키지를 다시 생성하여 교체하세요.\n1.6.0은 온라인 및 오프라인 업데이트를 지원합니다. 이전 버전은 전체 설치 프로그램을 사용하고 개인 설정과 프리셋을 보관하세요."
       },
       "ja": {
-        "title": "1.6.0公開 — 新しいバージョンを再インストールしてください",
-        "body": "1.6.0を公開し、システムが再び利用可能になりました。\n\nパッケージ全体の構成が変更されたため、オンラインではバージョン情報のみを提供します。本版はオンラインでの上書き更新に対応していません。公式GitHubリポジトリのReleasesから1.6.0の完全版インストーラーをダウンロードしてください。\n\n新しいバージョンのインストール：旧システムを完全に削除し、Helldivers 2と同じドライブの別の場所に空の新規フォルダーを作成して、そこへ新システムをインストールしてください。\n\n旧ファイルへ直接上書きしないでください。個人設定、プリセット、元のModは保管してください。クライアントのホーム画面の案内に従ってシステムとMod用ファイルを配置し、dataパッケージを再生成してインストールしてください。\n\nゲームに入ると標準で元のアーマーが表示されます。ReShadeパネルを開くかF4を押すと、アーマーパネルで外観を変更できます。武器庫とヘルポッドでは常に元のアーマーが表示されます。"
+        "title": "1.6.1公開 — 1.6.0からの差分更新に対応",
+        "body": "- 旧Modの外観で一人称に切り替える際の表示状態管理の漏れを修正しました。\n- 外観適用後に元のメッシュを非表示に保つ処理が停止する問題を修正しました。\n- 同じ装備のインスタンス変更後の再関連付けとシステム複製への誤関連付けを修正しました。\n\n更新後はゲームを終了し、「システムの導入」でシステムを配置してからModライブラリで関連ファイルを配置し、dataパッケージを再生成して置き換えてください。\n1.6.0はオンライン更新とオフライン更新に対応しています。それ以前は完全版インストーラーを使用し、個人設定とプリセットを保管してください。"
       }
     }
   }
