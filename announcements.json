@@ -1,23 +1,23 @@
 {
   "schema": "HD2Announcements1",
   "latest": {
-    "sequence": 20261103233344,
+    "sequence": 20261111203416,
     "languages": {
       "zh-CN": {
-        "title": "1.6.2 已发布：安装与更新流程修复",
-        "body": "- 修复了客户端更新和离线更新误读游戏文件的问题。\n- 修复了 Steam 其他游戏库漏识别、游戏位置与资料目录易混淆的问题。\n- 修复了卸载组件、读取参数和恢复客户端运行文件被游戏本体缺失阻止的问题。\n- 修复了未部署 DLSS 时的多余报错，以及单项检查变化影响其他检查结果的问题。\n- 优化了安装与升级提示，兼容增量升级时保留现有部署、资料和设置。\n\n1.6.1 用户仅更新客户端即可，现有系统部署、Mod 配套和 data 包继续使用。\n从 1.6.0 升级后，请重新部署系统与 Mod 配套，再生成并替换 data 包；前置沿用 BML 0.13.4。\n更早版本请使用完整安装器，并按原版本的卸载指引清理旧组件。"
+        "title": "1.6.3 已发布：游戏更新适配与 SS 护甲修复",
+        "body": "- 适配 Steam 26568081 / 7.2.3 游戏更新。\n- 补齐 SS-15、SS-33、SS-500 原版身体两种体型及头盔幻化。\n- 合入 R2 重复清理日志及关闭面板时输入轮询优化。\n- 保留上一版姿态写回、步态计时与4096配置修复。\n\n退出游戏和客户端，覆盖安装到原客户端目录。\n重新部署系统及 Mod 配套，再生成并替换 data 包；仅覆盖客户端不会更新游戏中的启动脚本。\n继续使用旧路线。使用过 Lit 测试路线的机器，应先通过原测试客户端卸载测试路线。"
       },
       "en": {
-        "title": "1.6.2 released: installation and update fixes",
-        "body": "- Fixed unnecessary game-file access during online and offline client updates.\n- Fixed missed Steam library locations and unclear game/library folder settings.\n- Fixed component removal, settings reads and runtime-only recovery requiring existing game files.\n- Fixed unnecessary errors before DLSS deployment and unrelated inspection results being invalidated.\n- Improved installation and upgrade guidance while preserving existing deployments, data and settings.\n\nFrom 1.6.1, update the client only. Keep the current system deployment, Mod companions and data package.\nFrom 1.6.0, redeploy the system and Mod companions, then regenerate and replace the data package. Keep BML 0.13.4.\nFor earlier versions, use the complete installer and follow the old version’s removal instructions for its components."
-      },
-      "ko": {
-        "title": "1.6.2 출시: 설치 및 업데이트 수정",
-        "body": "- 온라인 및 오프라인 클라이언트 업데이트 중 불필요한 게임 파일 접근을 수정했습니다.\n- Steam의 다른 라이브러리 감지 누락과 게임/자료 폴더 설정 혼동을 수정했습니다.\n- 게임 파일이 없어 구성 요소 제거, 설정 읽기 및 실행 파일 복원이 차단되는 문제를 수정했습니다.\n- DLSS 배포 전 불필요한 오류와 다른 검사 결과까지 무효화되는 문제를 수정했습니다.\n- 기존 배포, 자료와 설정을 유지하도록 설치 및 업데이트 안내를 개선했습니다.\n\n1.6.1에서는 클라이언트만 업데이트하세요. 기존 시스템 배포, Mod 지원 파일과 data 패키지를 계속 사용합니다.\n1.6.0에서는 시스템과 Mod 지원 파일을 다시 배포하고 data 패키지를 재생성하여 교체하세요. BML 0.13.4를 유지합니다.\n이전 버전은 전체 설치 프로그램을 사용하고 기존 버전의 제거 안내에 따라 이전 구성 요소를 정리하세요."
+        "title": "1.6.3 released: game update and SS armor support",
+        "body": "- Updated for Steam build 26568081 / game 7.2.3.\n- Added both stock body shapes and helmets for SS-15, SS-33 and SS-500.\n- Included R2 cleanup-log and closed-panel input polling improvements.\n- Retained pose writeback, gait clock and 4096-profile fixes.\n\nClose the game and client, then install over the existing client.\nDeploy the system and Mod companions, then generate and replace the data package. Updating the client alone does not replace game startup scripts.\nThis uses the stable route. Uninstall an existing Lit test route with its previous test client first."
       },
       "ja": {
-        "title": "1.6.2公開：インストールと更新の修正",
-        "body": "- オンライン・オフライン更新時の不要なゲームファイル参照を修正しました。\n- 別のSteamライブラリの検出漏れとゲーム・資料フォルダー設定の混同を修正しました。\n- ゲーム本体がない場合にコンポーネント削除・設定読み込み・実行ファイル復元が阻止される問題を修正しました。\n- DLSS配置前の不要なエラーと、無関係な確認結果まで無効になる問題を修正しました。\n- 既存の配置・資料・設定を保持するようインストールと更新の案内を改善しました。\n\n1.6.1からはクライアントのみ更新してください。既存のシステム配置・Mod関連ファイル・dataパッケージを引き続き使用します。\n1.6.0からはシステムとMod関連ファイルを再配置し、dataパッケージを再生成して置き換えてください。BML 0.13.4を継続します。\nそれ以前の版では完全版インストーラーを使用し、旧版の削除手順に従って旧コンポーネントを整理してください。"
+        "title": "1.6.3公開：ゲーム更新とSSアーマー対応",
+        "body": "- Steam 26568081 / 7.2.3に対応。\n- SS-15、SS-33、SS-500の両体型とヘルメットを追加。\n- R2のログと閉じたパネルの入力処理を最適化。以前の姿勢、歩行時計、4096設定修正を保持。\n\nゲームとクライアントを終了し、既存のフォルダーに上書きインストールしてください。\nシステムとMod連携を再配置し、dataパッケージを生成して置き換えてください。\n安定ルートを使用します。Litテストルートは旧テストクライアントで先にアンインストールしてください。"
+      },
+      "ko": {
+        "title": "1.6.3 출시: 게임 업데이트 및 SS 방어구 지원",
+        "body": "- Steam 26568081 / 7.2.3 대응.\n- SS-15, SS-33, SS-500의 두 체형 및 헬멧 추가.\n- R2 로그와 닫힌 패널 입력 최적화. 기존 포즈, 보행 시계 및4096설정 수정 유지.\n\n게임과 클라이언트를 종료하고 기존 폴더에 덮어 설치하세요.\n시스템과 Mod 연동 파일을 다시 배포한 후 data 패키지를 생성하여 교체하세요.\n안정 경로를 사용합니다. Lit 테스트 경로는 이전 테스트 클라이언트에서 먼저 제거하세요."
       }
     }
   }
