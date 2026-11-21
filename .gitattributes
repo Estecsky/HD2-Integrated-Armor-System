@@ -1,1 +1,2 @@
 updates/1.6.3/HD2IAS-1.6.3-update.zip filter=lfs diff=lfs merge=lfs -text
+updates/1.6.4/HD2IAS-1.6.4-update.zip filter=lfs diff=lfs merge=lfs -text
