@@ -2,9 +2,23 @@
 
 HD2 综合护甲系统的版本更新仓库。
 
-当前版本：**1.6.4**
+当前版本：**1.6.5**
 
 安装包发布在 [Releases](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases)
+
+[1.6.5 安装包（EXE）](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases/download/V1.6.5/HD2-Integrated-Armor-System-Setup.1.6.5.exe) · [1.6.5 离线更新包（ZIP）](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases/download/V1.6.5/HD2IAS-1.6.5-offline-update.zip)
+
+## HD2 综合护甲系统 1.6.5 更新日志
+
+【本次修订】
+- 修复大型护甲库在初始化 F4 面板时遇到本地元数据容量上限的问题。
+- 修复窗口模式下切换焦点或重建游戏窗口后 F4 可能失效的问题。
+- 改进 MDL3 前置识别，下载链接旁新增安装教程。
+
+退出游戏，在客户端重新部署护甲系统。
+重新生成系统 data 包，在 Arsenal 中替换旧包并部署。
+
+上一版下载
 
 [1.6.4 安装包（EXE）](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases/download/V1.6.4/HD2-Integrated-Armor-System-Setup.1.6.4.exe) · [1.6.4 离线更新包（ZIP）](https://github.com/Estecsky/HD2-Integrated-Armor-System/releases/download/V1.6.4/HD2IAS-1.6.4-offline-update.zip)
 
